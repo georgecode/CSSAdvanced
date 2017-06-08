@@ -1,0 +1,105 @@
+.hello{
+  color: red;
+}
+.container{
+   /* ROWS ARE ALL THE SAME HEIGHT*/
+
+  /*--the default flex-direction is a row is a row left justified */
+  display: flex;
+  flex-direction:row;
+  /*align-items:flex-start;*/
+  /*align-items:flex-end;*/
+  /*align-items:stretch;*/
+  /*align-items: center;*/
+  /*flex-wrap:wrap;*/
+ /*--row-reverse is right justified*/
+  /*flex-direction:row-reverse;*/
+
+
+/*--flex-direction column starts at the top and goes down*/
+  /*flex-direction:column;*/
+
+/*--makes flex boxgo from bottom to top*/
+  /*flex-direction:column-reverse;*/
+}
+.basic-flex{
+  margin: 10px;
+  border: 10px solid black;
+  background-color: red;
+
+
+
+
+ /* justify-content: flex-end;*/
+  justify-content:center;
+/*  justify-content:space-between;*/
+/*  justify-content: space-around;*/
+}
+
+.container2{
+  display:flex;
+}
+
+.container3{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+}
+
+.div3{
+  background-color: green;
+  width:150px;
+  height:150px;
+  border: pink 10px solid;
+}
+
+
+
+
+.containerStuff{
+/*--start a flex box*/
+  display:flex;
+
+/*--choose a drection*/
+  flex-direction:row;
+  flex-direction:row-reverse;
+  flex-direction:column;
+  flex-direction:column-reverse;
+
+/*--justify-content*/
+  justify-content:flex-start;
+  justify-content: flex-end;
+  justify-content:center;
+  justify-content:space-between;
+  justify-content: space-around;
+
+/*  --aligns to the top on rows, and to the left on columns*/
+  align-items:flex-start;
+  align-items:flex-end;
+  align-items:stretch;
+  align-items: center;
+  /*align-items:baseline;*/
+}
+
+.items-inside-container{
+/*-- align-self is how you over-ride container settings*/
+  align-self:flex-start;
+
+/*--flex-grow the one is a ratio */
+/*column's grow vertically*/
+/*row's grow horozonatily*/
+  flex-grow:1;
+}
+
+.target:nth-child(3){
+
+}
+
+.target.goo{
+
+}
+
+
+
+
+
