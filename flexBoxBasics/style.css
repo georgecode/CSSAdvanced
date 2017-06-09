@@ -1,5 +1,6 @@
 .hello{
   color: red;
+  flex-grow:1;
 }
 .container{
    /* ROWS ARE ALL THE SAME HEIGHT*/
@@ -85,10 +86,13 @@
 /*-- align-self is how you over-ride container settings*/
   align-self:flex-start;
 
-/*--flex-grow the one is a ratio */
+/*--flex-grow the 1 is a ratio */
 /*column's grow vertically*/
 /*row's grow horozonatily*/
+/*the ratio 1 means grow at a rate of one pixel of free space, a 2 would grow it at a rate of 2 pixles per empty space*/
   flex-grow:1;
+
+  flex-shrink:1;
 }
 
 .target:nth-child(3){
@@ -100,6 +104,8 @@
 }
 
 
+/*https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
 
+/*file:///Users/georgeczurlanis/Desktop/Projects/CSSAdvanced/flexBoxBasics/index.html*/
 
-
+/*http://flexboxzombies.com/courses/139425/lectures/2669680*/
