@@ -93,6 +93,14 @@
   flex-grow:1;
 
   flex-shrink:1;
+/*--flex-basis always trumps width think of it as a new and improved version of width
+--Howener it will respect min-width:; and max-width:; as a lower limit
+--When dealing with column's it is a height
+--flex-basis is not a guarantee it's more of a starting point or ideal size before they grow or shrink*/
+  flex-basis:100px;
+  flex-basis:50%;
+ /* --setting flex-basis to auto allows it to fall back to the original width setting*/
+  flex-basis:auto;
 }
 
 .target:nth-child(3){
@@ -109,3 +117,12 @@
 /*file:///Users/georgeczurlanis/Desktop/Projects/CSSAdvanced/flexBoxBasics/index.html*/
 
 /*http://flexboxzombies.com/courses/139425/lectures/2669680*/
+
+
+
+
+
+
+
+
+
